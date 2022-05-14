@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&family=Nunito:wght@700;800&family=Poppins:wght@300;400;600&display=swap");
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  
+  
+}
+
+
+html{
+  overflow-x: hidden;
+
+}
+
+
+.smallDeviceLogo{
+  display: none;
+  
+}
+
+
+.blob {
+  float: right;
+  width: 50%;
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eeb600;
+  border-radius: 38px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.formWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 140.52%;
+  color: #585858;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 40vw;
+  padding-top:30px;
+ 
+  float: left;
+}
+.logoWrapper img {
+  width: 50%;
+}
+
+.logoTitle {
+  font-weight: 800;
+
+  font-size: 40px;
+  line-height: 72px;
+
+  color: #585858;
+  
+  margin: 0;
+  
+}
+.logoSubtitle{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  color: #6D6565;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainLabel{
+  text-align: center;
+}
+
+.inputBox {
+  margin-bottom: 10px;
+  
+  outline: none;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  height: 50px;
+
+  background: #e1dddd;
+  border-radius: 10px;
+  display: flex;
+  
+  font-size: 15px;
+}
+
+
+
+.btn{
+  outline: none;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.joinBtn{
+  margin: 10px;
+  width: 30%;
+  color: #eeb600;
+  background-color: white;
+  
+}
+.joinBtn:hover{
+  background-color: azure;
+}
+
+
+.createInfo{
+  font-size: 20px;
+  text-align: center;
+}
+
+.createNewBtn{
+  color: black;
+  
+  font-size: 18px;
+}
+
+.mainWrap{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.logoTitle{
+  
+  color: #EEB600;
+}
+
+.topContainer{
+  display: flex;
+  flex-direction: row;
+  width: calc(100vw - 15px);
+  align-items: center;
+  margin: 0;
+
+  
+  
+}
+.topAside{
+  display: flex;
+  flex-direction: row;
+  background: #282a36;
+  width: calc(100vw - 200px);
+  margin-right: 30px;
+  border-radius: 16px;
+  align-items: center;
+  padding: 15px 30px;
+  
+  color: white;
+  
+}
+
+.clientList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  margin-left: 40px;
+  flex-wrap: wrap;
+}
+.client{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin:15px;
+  justify-content: center;
+  
+}
+
+.editorPageBtn{
+  display: flex;
+  flex-direction: column;
+  margin:5px;
+}
+
+.copyRoomId{
+  margin-bottom:10px;
+  
+}
+.copyRoomId:hover{
+  
+  background-color: #eeb600;
+  color: black;
+  
+}
+.leaveRoom{
+  
+  background-color: black;
+  color: #eeb600;
+}
+
+.leaveRoom:hover{
+  background-color: #eeb600;
+  color: black;
+  
+}
+
+
+
+.CodeMirror{
+  
+  margin-top: 5px;
+  border-radius: 15px;
+  padding: 30px;
+  min-height: calc(100vh - 245px);
+  width: calc(100vw - 100px);
+  scroll-behavior: smooth;
+  
+  
+}
+
+
+.editorPageTitle{
+  margin-right: 12px;
+}
+
+.chatStarter{
+  
+  position: absolute;
+  bottom: 6%;
+  right: 5%;
+  
+  display: flex;
+  
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+ 
+  width: 130px;
+  
+  
+ 
+}
+
+.chatStarter:hover{
+   color: black;
+   
+}
+
+.chatIcon{
+  width: 30%;
+  margin-left: 6px;
+  
+  
+}
+.chatBtn{
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+
+}
+
+.chatBox{
+  position: fixed;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.chatContent{
+  
+  background-color:#282a36;
+  border: none;
+  
+}
+
+
+.chatBody::-webkit-scrollbar {
+  display: none;
+}
+.chatBody{
+  scrollbar-width: none;
+  
+  
+}
+
+.chatBody{
+  overflow-y: scroll;
+  height: calc(450px - (45px + 70px));
+  overflow-wrap: break-word;
+  word-break: break-word;
+  
+  min-height: 40px;
+  max-height: 450px;
+  width: 350px;
+  
+}
+
+.inputBoxChat{
+  width: 250px;
+}
+.inputBoxChat{
+  min-height: 35px;
+  border-radius: 5px;
+  
+  font-weight: bold;
+  padding: 5px;
+  background-color: black;
+  border: none;
+  margin: 10px 3px 10px 10px;
+  color: white;
+  overflow-wrap: break-word;
+  word-break: break-word;
+    
+}
+
+
+.msgSendBtn{
+  color: #eeb600;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.chatHeader{
+  width: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+
+}
+.chatBoxTitle{
+  flex-grow: 1;
+  margin-left: 20px;
+  font-weight: bold;
+  
+}
+
+.closeBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  border: none;
+  border-radius: 40%;
+  background-color: black;
+  
+}
+
+.closeBtnIcon{
+  width: 25px;
+  font-weight: bold;
+  
+}
+.message{
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:wheat;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  width: 150px;
+  
+  
+}
+.metaData{
+  width:175px;
+}
+.authorName{
+  margin: 0;
+  margin-left: 15px;
+  color:#eeb600;
+  font-size: 12px;
+  flex-grow: 1;
+  
+}
+.metaData{
+  display: flex;
+  flex-direction: row;
+}
+.messageTiming{
+  margin: 0;
+  margin-top: 2px;
+  color: white;
+  font-size: 8px;
+  margin-right: 3px;
+}
+
+#YOU{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+#OTHER{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+   
+  
+}
+
+#YOU-COLOR{
+  background-color: white;
+  color: bla;
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+.logoSubtitle{
+  margin-left: 3px;
+}    
+
+}
+
+@media all and (max-width:700px){
+
+  .homepageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoWrapper{
+    display: none;
+  }
+
+  .blob{
+    float: none;
+    width: 90%;
+    
+  }
+
+  .inputBox{
+    width: 80%;
+  }
+
+  .createInfo{
+    font-size: 15px;
+  }
+
+  .smallDeviceLogo{
+    display: block;
+    border-radius: 30%;
+    
+  }
+  .mainLabel{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .editorPageTitle{
+    display: none;
+  }
+  
+  .copyRoomId{
+    font-size: 10px;
+  }
+  .topAside{
+    width: 550px;
+  }
+  
+  .clientList{
+    margin: 0;
+  }
+  .connected{
+    display: none;
+  }
+  .chatStarter{
+    right: 9%;
+  }
+}
