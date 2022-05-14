@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Jayashtripathy.github.io/Encrypt-collaborate",
+  
   "name": "encrypt",
   "version": "0.1.0",
   "private": true,
@@ -24,11 +24,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build && npm run server-prod",
-    "deploy": "gh-pages -d build",
+    
     "start:front": "react-scripts start",
-    "start": "npm run build && npm run server:prod",
-   
+    "start": "npm run build && npm run server-prod",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
