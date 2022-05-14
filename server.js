@@ -1,5 +1,6 @@
 const express = require('express');  // initialized express
 const app = express();   // function call express 
+const path = require('path');
 
 const {Server} = require('socket.io');   // socket server
 const { SEND_MESSAGE, RECIEVE_MESSAGE } = require('./src/Actions');
@@ -10,8 +11,11 @@ const io = new Server(server)  // made instance of socket server
 
 app.use(express.static('build'));
 app.use((req, res, next) => {
-   res.sendFile(path.join(__dirname, 'build', 'index.html'))
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
+// app.use((req, res, next) => {
+//    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+// })
 
 const userSocketMap = {};
 function getAllConnectedClients(roomId){
