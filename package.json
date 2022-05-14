@@ -24,10 +24,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start:front": "react-scripts start",
-    "start": "npm run build && npm run server:prod",
     "predeploy": "npm run build && npm run server-prod",
     "deploy": "gh-pages -d build",
+    "start:front": "react-scripts start",
+    "start": "npm run build && npm run server:prod",
+   
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
