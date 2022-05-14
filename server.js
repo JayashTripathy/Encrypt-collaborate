@@ -9,10 +9,10 @@ const ACTIONS = require('./src/Actions');
 const server = require('http').createServer(app);  // http server created
 const io = new Server(server)  // made instance of socket server
 
-app.use(express.static('build'));
-app.use((req, res, next) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'))
-})
+// app.use(express.static('build'));
+// app.use((req, res, next) => {
+    // res.sendFile(path.join(__dirname, 'build', 'index.html'))
+// })
 // app.use((req, res, next) => {
 //    res.sendFile(path.join(__dirname, 'build', 'index.html'))
 // })
