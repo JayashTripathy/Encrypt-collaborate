@@ -141,7 +141,10 @@ const EditorPage = () => {
             socketRef={socketRef}
           />
 
-          {!chatPopup ? (
+          
+        </div>
+      </div>
+      {!chatPopup ? (
             <button className="chatStarter" id="chat-starter">
               <div
                 className=" btn  chatBtn"
@@ -155,8 +158,6 @@ const EditorPage = () => {
           ) : (
             ""
           )}
-        </div>
-      </div>
     </div>
   );
 };

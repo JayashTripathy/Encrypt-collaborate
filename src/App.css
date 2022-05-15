@@ -455,6 +455,10 @@ html{
 
 @media all and (max-width:700px){
 
+  .formWrapper{
+    padding-bottom: 30px;
+  }
+
   .homepageWrapper{
     display: flex;
     align-items: center;
@@ -530,5 +534,9 @@ html{
   }
   .chatStarter{
     right: 9%;
+    bottom: 5%;
   }
+
+  
+  
 }
