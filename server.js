@@ -13,9 +13,7 @@ app.use(express.static('build'));
 app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
-// app.use((req, res, next) => {
-//    res.sendFile(path.join(__dirname, 'build', 'index.html'))
-// })
+
 
 const userSocketMap = {};
 function getAllConnectedClients(roomId){
