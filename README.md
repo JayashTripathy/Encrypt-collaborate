@@ -1,4 +1,4 @@
-<img src="">
+<img src="/public/logo.png">
 # Encrypt - A collaborative programming platform
 
 
