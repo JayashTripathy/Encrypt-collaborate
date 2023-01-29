@@ -5,7 +5,7 @@
 <li>Its build on MERN Stack + Socket IO. </li>
 <li>Encrypt is also iPad and mobile device compatible.</li>
 </ul>
-<h2 id="how-to-contribute-or-run-the-application-">How to Contribute or Run the Application ?</h2>
+<h2 id="how-to-contribute-or-run-the-application-">How to Contribute ?</h2>
 <pre><code><span class="hljs-number">1.</span> Create Fork <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> repositiory.
 <span class="hljs-number">2.</span> Clone <span class="hljs-keyword">the</span> forked repository.
 <span class="hljs-number">3.</span> Create <span class="hljs-keyword">a</span> <span class="hljs-built_in">new</span> branch.
