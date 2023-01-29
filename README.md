@@ -1,4 +1,4 @@
-<img src="/logo.png"/>
+<img src="/public/logo.png" alt="loading">
 <h1 id="encrypt-a-collaborative-programming-platform">Encrypt - A collaborative programming platform</h1>
 <ul>
 <li>Encrypt is a tool for collaborative coding that enables multiple users to work simultaneously on the same coding project.</li>
